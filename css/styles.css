@@ -11557,3 +11557,10 @@ textarea.form-control-lg {
   width: 4rem;
   font-size: 2rem;
 }
+.header-background{
+  background-image: url('../assets/img/header.png');
+  background-size: cover;   
+}
+.header-text{
+  text-transform: uppercase !important;
+}
