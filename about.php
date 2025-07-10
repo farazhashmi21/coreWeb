@@ -11,6 +11,7 @@ require_once 'header.php'; // Include your header file
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
                                 <h2 class="fs-4 fw-bold">About Us</h2>
+                                <h3>Welcome, <?php echo htmlspecialchars($_SESSION['user']); ?>!</h3>
                                 <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit explicabo, eligendi dolores exercitationem debitis eum, maxime aliquid at reiciendis tenetur eos consequatur aut molestias corrupti suscipit illo a ullam odit.</p>
                             </div>
                         </div>
