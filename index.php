@@ -1,5 +1,6 @@
 <?php
 require_once 'header.php'; // Include your configuration file if needed
+$_SESSION['user'] = "Admin Faraz"; // Set a session variable for the user
 ?>
 <!-- Page Content-->
         <section class="pt-4">
